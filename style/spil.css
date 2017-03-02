@@ -98,11 +98,6 @@ body > div.wrapper > div.innerwrapper{
     padding: 5px;
     padding-right: 15px;
 }
-.actual li img{
-    width: 175px;
-    height: 175px;
-    padding-right: 17px;
-}
 .actual li .subtext > * {
     padding: 5px;
 }
@@ -177,4 +172,10 @@ footer.global li a{
 }
 .spacer {
     padding: 0 5px;
+}
+
+.actual li img{
+    width: 175px;
+    height: 175px;
+    padding-right: 17px;
 }
