@@ -2,29 +2,66 @@
 <html>
     <head>
         <link rel=stylesheet href="style/reset.css">
-        <link rel=stylesheet href="style/core.css">
+        <link rel=stylesheet href="style/kontakt.css">
         <script type="text/javascript" src="power/main.js"></script>
     </head>
-    <body>
-        <div class="wrapper">
+    <body id="nobody">
+            
+             <nav class="global">
+            <div class="navigation">
+              <li><a href="index.html">Forside</a></li>
+              <li><a href="spil.html">Spil</a></li>
+              <li><a href="ratings.html">Anmeldelser</a></li>
+              <li><a href="#">Kontakt</a></li>
+            </div>
+            
+        </nav>
             
         <header class="global">
-            <div>
+            <div class="wrapper">
+                <div class="innerwrapper">
+                    <div class="logo">
+                        <img src="img/logo/logo.png">
+                    </div>
+                    <div class="social">
+                        <img src="img/social/icon_facebook.png">
+                        <img src="img/social/icon_gplus.png"><!-- Flagged for deletion: unnecessary content -->
+                        <img src="img/social/icon_twitter.png">
+                        <img src="img/social/icon_youtube.png">
+                    </div>
+                </div>
             </div>
         </header>
         
-        <nav class="global">
-            <div>
-            </div>
-        </nav>
+        <div class="wrapper">
         
         <main class="global">
-            <div>
+            <div class="innerwrapper">
+                <h2>Kontakt</h2>
+                <p>Udfyld og send formulare, hvis du har et spørgsmål eller en besked.</p>
+                <div class="formulars">
+                    <div>
+                        <p>Fulde navn</p><input>
+                    </div>
+                    <div>
+                        <p>Email</p><input>
+                    </div>    
+                    <div>
+                        <p>Besked</p><textarea rows="8" cols="100"></textarea>
+                    </div>
+                    <div>
+                        <a onclick="submit();">Send</a>
+                    </div>
+                </div>
             </div>
         </main>
         
-        <footer class="global">
-            <div>
+       <footer class="global">
+            <div class="innerwrapper">
+                <div>
+                <li><a>GameChanger website</a></li><li class="spacer">|</li><li><a href="#">kontakt@gamechanger.local</a></li>
+                    <li class="spacer">|</li><li><a href="#">www.gamechanger.local</a></li>
+                </div>
             </div>
         </footer>
             

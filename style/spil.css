@@ -1,8 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
-* {
-    font-family: 'Open Sans', 'sans-serif';
-}
 #nobody{
     font-family: 'Open Sans', 'sans-serif';
 }
@@ -74,7 +70,7 @@ body > div.wrapper > div.innerwrapper{
     font-size: 26px;
     font-weight: bold;
     background-color: black;
-    color: dodgerblue;
+    color: aqua;
     padding: 10px;
     margin-bottom: 5px;
 }
@@ -159,15 +155,9 @@ body > div.wrapper > div.innerwrapper{
 
 
 
-footer {
-    margin-top: -80px;
-    
-}
 footer.global > .innerwrapper{
-    padding: 30px;
-    display: block;
-    width: 100%;
     background-color: #eee;
+    padding: 30px;
 }
 footer.global > div > div{
     margin: 0 auto;
@@ -185,11 +175,6 @@ footer.global li a{
     display: block;
     box-sizing: padding-box;
 }
-footer.global li a::before{
-    content: '|';
+.spacer {
     padding: 0 5px;
-    height: 1em;
-}
-footer.global li:first-of-type a::before{
-    content: '';
 }

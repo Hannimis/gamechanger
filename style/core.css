@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-* {
+#nobody{
     font-family: 'Open Sans', 'sans-serif';
 }
 
@@ -139,7 +139,7 @@ main.global {
     padding: 10px 0;
 }
 .thumbnails .thumbtext p{
-    color: dodgerblue;
+    color: aqua;
 }
 
 .container{
@@ -154,7 +154,7 @@ main.global {
 }
 .cod-trailer h2{
     background-color: black;
-    color: dodgerblue;
+    color: aqua;
     width: 100%;
     padding: 10px 0;
     font-size: 20px;
@@ -187,11 +187,14 @@ main.global {
 .popular li{
     padding: 5px 0;
 }
+.popular li div{
+    padding-left: 7px;
+}
 .popular h2{
     font-size: 20px;
     padding: 10px 0;
     background-color: black;
-    color: dodgerblue;
+    color: aqua;
     margin-bottom: 7px;
     box-sizing: border-box;
 }
@@ -222,6 +225,7 @@ h2::before{
 .articules{
     justify-content: space-between;
     margin-top: 15px;
+    padding-top: 10px;
 }
 .articules li{
     list-style: none;
@@ -236,7 +240,7 @@ h2::before{
     margin-bottom: 5px;
     font-size: 20px;
     background-color: black;
-    color: dodgerblue;
+    color: aqua;
 }
 .articules h3{
     padding: 15px 0;
@@ -276,11 +280,6 @@ footer.global li a{
     display: block;
     box-sizing: padding-box;
 }
-footer.global li a::before{
-    content: '|';
+.spacer {
     padding: 0 5px;
-    height: 1em;
-}
-footer.global li:first-of-type a::before{
-    content: '';
 }

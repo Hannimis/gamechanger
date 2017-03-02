@@ -1,8 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+#nobody {
+    font-family: 'Open Sans', 'sans-serif';
+}
+
+
+main.global {
+    position: relative;
+    bottom: 80px;
+}
 .wrapper {
-    max-width: 1080px;
-    min-width: 768px;
+    max-width: 1400px;
     margin: 0 auto;
 }
+.innerwrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav.global {
+    background-color: black;
+}  
+nav.global div{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.navigation li {
+    list-style: none;
+    text-align: center;
+}
+.navigation a:hover{
+    background-color: aqua;
+    color: black;
+}
+.navigation a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px 35px;
+}
+
+header.global{
+    padding-top: 15px;
+    max-width: 1920px;
+    height: 150px;
+}
+header.global {
+    background-image: url(../img/graphic/cross.png);
+    background-color: #666  ;
+}
+header.global > .wrapper .innerwrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
 .wrapper > .global {
     display: flex;
+}
+main.global .innerwrapper > div div{
+    display: flex;
+}
+main.global .innerwrapper input {
+    width: 250px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+main.global .innerwrapper textarea{
+    width: 925px;
+    height: 200px;
+    border-radius: 5px;
+}
+.formulars {
+    padding: 20px;
+    padding-left: 175px;
+    padding-right: 0;
+}
+.formulars div{
+    padding: 5px;
+}
+.formulars p{
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    padding: 5px;
+    margin-top: -10px;
+}
+main.global .innerwrapper{
+    width: 1200px;
+    background-color: white;
+    border: 30px solid #fff;
+}
+main.global h2::before{
+    content: url(../img/graphic/icon_titlebar.png);
+    padding: 7px;
+}
+main.global h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding: 7px;
+    background-color: black;
+    color: aqua;
+}
+.formulars a {
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    background-color: aqua;
+    padding: 0 7px;
+    border-radius: 50px;
+    border: 7px solid aqua;
+}
+.formulars div:last-of-type{
+    margin-top: 10px;
+    padding-left: 100px;
+}
+
+
+
+
+footer.global > .innerwrapper{
+    background-color: #eee;
+    padding: 30px;
+}
+footer.global > div > div{
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+footer.global li{
+    display: block;
+    list-style: none;
+}
+footer.global li a{
+    color: #aaa;
+    height: 1em;
+    display: block;
+    box-sizing: padding-box;
+}
+.spacer {
+    padding: 0 5px;
 }
