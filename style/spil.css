@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    font-family: 'Open Sans', 'sans-serif';
+}
+#nobody{
+    font-family: 'Open Sans', 'sans-serif';
+}
 .wrapper {
     max-width: 1400px;
     margin: 0 auto;
@@ -5,6 +13,7 @@
 .innerwrapper{
     max-width: 1200px;
     margin: 0 auto;
+    border: 30px solid #fff;
 }
 .wrapper > .global {
     display: flex;
@@ -13,17 +22,174 @@
     display: flex;
     justify-content: space-between;
 }
+a
+{color:black;}
+
+nav.global {
+    background-color: black;
+}  
+nav.global div{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.navigation li {
+    list-style: none;
+    text-align: center;
+}
+.navigation a:hover{
+    background-color: aqua;
+    color: black;
+}
+.navigation a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px 35px;
+}
+
+header.global{
+    padding-top: 15px;
+    max-width: 1920px;
+    height: 150px;
+}
+header.global {
+    background-image: url(../img/graphic/cross.png);
+    background-color: #666  ;
+}
+header .wrapper .innerwrapper{
+    border: none;
+    display: flex;
+    justify-content: space-between;
+}
+body > div.wrapper > div.innerwrapper {
+    position: relative;
+    bottom: 80px;
+}
+body > div.wrapper > div.innerwrapper{
+    background-color: white;
+}
+
+.gamecontent h2{
+    font-size: 26px;
+    font-weight: bold;
+    background-color: black;
+    color: dodgerblue;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.gamecontent .recent h2{
+    font-size: 20px;
+    padding: 13px;
+}
+.gamecontent h2::before{
+    content: url(../img/graphic/icon_titlebar.png);
+    padding: 5px 10px;
+    color: white;
+}
+.gamecontent div li:nth-of-type(even){
+    background-color: #eee;
+}
 .actual {
-    width: 75%;
+    width: 72%;
+}
+.actual li:first-of-type{
+    margin-top: 5px;
 }
 .actual li{
     list-style: none;
     display: flex;
+    padding: 5px;
+    padding-right: 15px;
 }
 .actual li img{
-    width: 200px;
-    height: 200px;
+    width: 175px;
+    height: 175px;
+    padding-right: 17px;
+}
+.actual li .subtext > * {
+    padding: 5px;
+}
+.actual li .subtext p{
+    padding-top: 15px;
+    font-size: 18px;
+}
+.actual li .subtext div span{
+    padding: 0 5px;
+}
+
+.actual li h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.subtext > div{
+    
+}
+.subtext > div > *{
+    display: inline;
+}
+.rectext{
+    padding: 7px 0;
 }
 .recent {
-    width: 20%;
+    width: 25%;
+}
+.recent li{
+    list-style: none;
+    padding: 5px;
+}
+.recent li::after{
+    display: block;
+    content: '';
+    clear:both;
+}
+.recent li img{
+    float: left;
+    width: 50px;
+}
+.recent li h3{
+    font-weight: bold;
+}
+.recent li p{
+}
+.recent li h3, .recent li p{
+    display: inline-block;
+    padding: 2px 10px;
+}
+
+
+
+footer {
+    margin-top: -80px;
+    
+}
+footer.global > .innerwrapper{
+    padding: 30px;
+    display: block;
+    width: 100%;
+    background-color: #eee;
+}
+footer.global > div > div{
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+footer.global li{
+    display: block;
+    list-style: none;
+}
+footer.global li a{
+    color: #aaa;
+    height: 1em;
+    display: block;
+    box-sizing: padding-box;
+}
+footer.global li a::before{
+    content: '|';
+    padding: 0 5px;
+    height: 1em;
+}
+footer.global li:first-of-type a::before{
+    content: '';
 }
